@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|IBM+Plex+Serif:400,400i');
+body {
+  background-color: #0B3954;
+  color: #FEFFFE;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1 {
+  font-weight: 400;
+  font-style: italic;
+}
+
+p {
+  font-weight: 100;
+  font-size: 20px;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.name {
+  padding-left: 20px;
+  font-weight: 100;
+  font-size: 35px;
+  color: #FF6663;
+}
+
+.namebold {
+  font-weight: normal;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  }
+
+.flexlist1 {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  }
+
+.flexlist2 {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  padding-left: 70px;
+  }
+
+.mainlist {
+  list-style: none;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+    }
+
+.flexexperience1 {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: flex-start;
+    font-weight: 100;
+    font-size: 20px;
+    }
+
+.flexexperience2 {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: flex-start;
+    font-weight: 100;
+    font-size: 20px;
+    }
+
+#home_content {
+  display: block;
+}
+#home_list {
+  display: inline-block;
+  cursor: pointer;
+}
+
+#experience_content {
+  display: none; /* hides */
+}
+
+#experience_list {
+  cursor: pointer;
+}
+
+#works_content {
+  display: none; /* hides */
+}
+
+#works_list {
+  cursor: pointer;
+}
+
+#contact_content {
+  display: none;
+}
+
+#contact_list {
+  cursor: pointer;
+}
