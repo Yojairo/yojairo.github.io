@@ -50,6 +50,11 @@ a:active {
   font-weight: normal;
 }
 
+.image {
+  display: flow-root;
+  height: 30px;
+}
+
 .list-container {
   display: flex;
   flex-direction: row;
