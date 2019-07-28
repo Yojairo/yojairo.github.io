@@ -1,141 +1,124 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|IBM+Plex+Serif:400,400i');
-body {
-  background-color: #0B3954;
-  color: #FEFFFE;
-  font-family: 'IBM Plex Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap');
+
+h1{
+  font-family: 'Cormorant Garamond', serif;
+  font-style:: normal;
+  font-weight: 700;
+  font-size: 50px;
+
+  text-align: center;
+  padding-top: 30px;
+  line-height: 0px;
 }
 
-h1 {
-  font-weight: 400;
+h2{
+  font-family: 'Cormorant Garamond', serif;
   font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+
+  text-align: center;
+  line-height: 10px;
 }
 
-p {
-  font-weight: 100;
+h3{
+  font-family: 'Cormorant Garamond', serif;
+  font-style:: normal;
+  font-weight: 500;
   font-size: 20px;
+
+  padding-bottom: 20px;
+  text-align: center;
 }
 
-a:link {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
+h5{
+  font-family: 'Cormorant Garamond', serif;
+  font-style: bold;
+  font-weight: 500b;
+  font-size: 25px;
+
+  text-align: center;
 }
 
-a:visited {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
+h6{
+  font-family: 'Cormorant Garamond', serif;
+  font-style:: normal;
+  font-weight: 300;
+  font-size: 22px;
+
+  text-align: center;
+  line-height: 25px;
+  margin-bottom: 30px;
 }
 
-a:hover {
-    color: white;
-    background-color: transparent;
-    text-decoration: underline;
+p{
+  font-family: 'Cormorant Garamond', serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+
+  text-align: center;
 }
 
-a:active {
-    color: white;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-.name {
-  padding-left: 20px;
-  font-weight: 100;
-  font-size: 35px;
-  color: #FF6663;
-}
-
-.namebold {
-  font-weight: normal;
-}
-
-.image {
-  display: flow-root;
-  height: 30px;
-}
-
-.list-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-content: flex-start;
-  align-items: flex-start;
-  }
-
-.flexlist1 {
-  order: 0;
-  flex: 0 1 auto;
-  align-self: auto;
-  }
-
-.flexlist2 {
-  order: 0;
-  flex: 0 1 auto;
-  align-self: auto;
-  padding-left: 70px;
-  }
-
-.mainlist {
-  list-style: none;
-  font-weight: 200;
-  font-size: 30px;
-}
-
-.experience-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-content: flex-start;
-    align-items: flex-start;
-    }
-
-.flexexperience1 {
-    order: 0;
-    flex: 0 1 auto;
-    align-self: flex-start;
-    font-weight: 100;
-    font-size: 20px;
-    }
-
-.flexexperience2 {
-    order: 0;
-    flex: 0 1 auto;
-    align-self: flex-start;
-    font-weight: 100;
-    font-size: 20px;
-    }
-
-#home_content {
-  display: block;
-}
-#home_list {
+#homeMenu{
   display: inline-block;
   cursor: pointer;
 }
 
-#experience_content {
-  display: none; /* hides */
+#homeContent{
+  display: block;
 }
 
-#experience_list {
+#worksMenu{
+  display: inline-block;
   cursor: pointer;
 }
 
-#works_content {
-  display: none; /* hides */
-}
-
-#works_list {
-  cursor: pointer;
-}
-
-#contact_content {
+#worksContent{
   display: none;
 }
 
-#contact_list {
+#experienceMenu{
+  display: inline-block;
   cursor: pointer;
+}
+
+#experienceContent{
+  display: none;
+}
+
+#contactMenu{
+  display: inline-block;
+  cursor: pointer;
+}
+
+#contactContent{
+  display: none;
+}
+
+#footer{
+  font-family: 'Cormorant Garamond', serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+
+  text-align: center;
+}
+
+a:link{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
 }
