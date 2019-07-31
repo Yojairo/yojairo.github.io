@@ -99,6 +99,15 @@ p{
   display: none;
 }
 
+#musicOnClick{
+  display: inline-block;
+  cursor: pointer;
+}
+
+#musicContent{
+  display: none;
+}
+
 #footer{
   font-family: 'Cormorant Garamond', serif;
   font-style: normal;

@@ -19,6 +19,7 @@ document.querySelector('#worksMenu').addEventListener('click', e => {
   document.querySelector('#homeContent').style.display = 'none';
   document.querySelector('#experienceContent').style.display = 'none';
   document.querySelector('#contactContent').style.display = 'none';
+  document.querySelector('#musicContent').style.display = 'none';
   document.querySelector('#worksContent').style.display = 'block';
 });
 
@@ -29,6 +30,7 @@ document.querySelector('#experienceMenu').addEventListener('click', e => {
   document.querySelector('#homeContent').style.display = 'none';
   document.querySelector('#worksContent').style.display = 'none';
   document.querySelector('#contactContent').style.display = 'none';
+  document.querySelector('#musicContent').style.display = 'none';
   document.querySelector('#experienceContent').style.display = 'block';
 });
 
@@ -39,5 +41,18 @@ document.querySelector('#contactMenu').addEventListener('click', e => {
   document.querySelector('#homeContent').style.display = 'none';
   document.querySelector('#worksContent').style.display = 'none';
   document.querySelector('#experienceContent').style.display = 'none';
+  document.querySelector('#musicContent').style.display = 'none';
   document.querySelector('#contactContent').style.display = 'block';
+});
+
+document.querySelector('#musicOnClick').addEventListener('click', e => {
+  if(document.querySelector('#musicContent').style.display === 'block'){
+    $(document).ready(function(){
+      $("#musicContent").fadeOut(500);
+    });
+  } else{
+    $(document).ready(function(){
+      $("#musicContent").hide().fadeIn(500);
+    });
+  }
 });
