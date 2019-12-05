@@ -1,0 +1,244 @@
+<mat-toolbar id = "name">
+  <span id="filler"></span>
+  <span>
+    Yojairo Morales
+  </span>
+  <span id="filler"></span>
+</mat-toolbar>
+<mat-toolbar id = "menu">
+  <span id="filler"></span>
+  <span>
+    <button mat-button id="menuButton" (click)="scroll(home)">
+      HOME
+    </button>
+    <button mat-button id="menuButton" (click)="scroll(works)">
+      WORKS
+    </button>
+    <button mat-button id="menuButton" (click)="scroll(resume)">
+      RESUMÉ
+    </button>
+    <button mat-button id="menuButton" (click)="scroll(contact)">
+      CONTACT
+    </button>
+  </span>
+  <span id="filler"></span>
+</mat-toolbar>
+<div #home>
+  <mat-card>
+    <mat-card-content id=content>
+      Hi! I'm Yojairo Morales, a student at the University of Southern 
+      California studying Computer Science and Business Administration
+      from Stockton, California.  My interests within Computer Science 
+      lie in its intersection with Cognitive Science, where I have a
+       passion for Human-Computer Interaction. I hope to eventually
+      use my education to create intuitive software applications
+      that are built for everyone.
+      <br> <br>
+      Apart from my academic and professional interests, I like streetwear, 
+      music, and sneakers.
+    </mat-card-content>
+  </mat-card>
+</div>
+<mat-divider></mat-divider>
+<div #works>
+  <mat-card>
+    <mat-card-content id="content">
+      Currently, I'm working on undisclosed projects.
+    </mat-card-content>
+  </mat-card>
+</div>
+<mat-divider></mat-divider>
+<div #resume id="resume">
+  <mat-card id="content">
+    <mat-card>
+      <mat-card-subtitle>
+        Institution
+      </mat-card-subtitle>
+      <mat-card-content>
+        University of Southern California
+      </mat-card-content>
+    </mat-card>
+    <mat-card>
+      <mat-card-subtitle>
+        Degree
+      </mat-card-subtitle>
+      <mat-card-content>
+        Bachelor of Science (B.S.) in Computer Science
+        & Business Administration
+      </mat-card-content>
+    </mat-card>
+    <mat-card>
+      <mat-card-subtitle>
+        Related Coursework
+      </mat-card-subtitle>
+      <mat-card-content>
+          Introduction to Computer Science, Introduction 
+          to Programming, Introduction to Computing, Calculus 
+          I, Calculus II.
+      </mat-card-content>
+    </mat-card>
+    <br>
+    <mat-card>
+      <img
+      width="35px"
+      src="../assets/google_logo.png">
+      <mat-card-title>
+        Google Inc.
+      </mat-card-title>
+      <mat-card-subtitle>
+        Engineering Practicum Intern | Security and Privacy <br>
+        Chicago, Illinois <br>
+        <i> May 2019 - August 2019 </i>
+      </mat-card-subtitle>
+      <mat-card-content>
+        - Engineered a UX/UI feature for cryptographic keys in 
+        Google Cloud, revamping how keys are displayed. <br>
+        - Developed feature using TypeScript to access controls
+        of a cryptographic key through a new UI/UX interface, 
+        to expand reliability, security, accessibility, and privacy. <br>
+        - Formulated integration and unit tests through Jasmine, a 
+        JavaScript framework, to ensure users with proper authorization 
+        had access to approved controls. <br>
+        - Presented to key stakeholders in Google Cloud regarding 
+        engineering decisions, security measures, and 
+        feature milestones. <br>
+        - Aided in teaching computer science fundamentals 
+        to incoming freshmen at Computer Science Summer Institute 
+        and discussed with underrepresented youth about 
+        careers in STEM. <br>
+      </mat-card-content>
+    </mat-card>
+    <mat-card>
+        <img
+        width="35px"
+        src="../assets/usc_logo.png">
+      <mat-card-title>
+        University of Southern California
+      </mat-card-title>
+      <mat-card-subtitle>
+        Web Content Manager & Data Researcher |
+        Viterbi School of Engineering <br>
+        Los Angeles, California <br>
+        <i> August 2018 - May 2019 </i>
+      </mat-card-subtitle>
+      <mat-card-content>
+        - Was responsible for designing, developing, managing 
+        and maintaining the primary and auxiliary websites of 
+        the University of Southern California. <br>
+        - Identified and used effective communication approaches 
+        and media to convey frequently changing information, 
+        clearly distilling the essence of the university to 
+        various audiences. <br>
+        - Instructed faculty and staff on how to implement our 
+        content management system for professional use. <br>
+      </mat-card-content>
+    </mat-card>
+    <mat-card>
+        <img
+        width="35px"
+        src="../assets/google_logo.png">
+      <mat-card-title>
+        Google Inc.
+      </mat-card-title>
+      <mat-card-subtitle>
+        Student |
+        Computer Science Summer Institute <br>
+        Mountain View, California <br>
+        <i> July 2018 - August 2018 </i>
+      </mat-card-subtitle>
+      <mat-card-content>
+        - Participated in intensive programming institute 
+        held at Google. <br>
+        - Developed abilities in languages such as HTML, 
+        CSS, JavaScript, and Python. <br>
+        - Launched applications using Google's AppEngine 
+        platform. <br>
+        - Collaborated and engineered an interactive web 
+        application for social change in education. <br>
+      </mat-card-content>
+    </mat-card>
+    <mat-card>
+      <img
+      width="35px"
+      src="../assets/ymca_logo.png">
+      <mat-card-title>
+        YMCA of San Joaquin County
+      </mat-card-title>
+      <mat-card-subtitle>
+        Lifeguard and Swim Instructor |
+        Aquatics Department <br>
+        Stockton California <br>
+        <i> May 2017 - July 2018 </i>
+      </mat-card-subtitle>
+      <mat-card-content>
+        - Interacted with patrons on a daily basis 
+        at community pool <br>
+        - Taught children ranging from 3 to 16 years 
+        old basic and advanced swimming techniques <br>
+        - Handled and recorded transactions for 
+        the organization <br>
+        - Communicated with team to provide a safe 
+        and vibrant environment for guests <br> 
+      </mat-card-content>
+    </mat-card>
+    <mat-card>
+      <img
+      width="100px"
+      src="../assets/tillys_logo.png">
+      <mat-card-title>
+        Tilly's
+      </mat-card-title>
+      <mat-card-subtitle>
+        Associate |
+        Sales Department <br>
+        Stockton California <br>
+        <i> November 2017 - May 2018 </i>
+      </mat-card-subtitle>
+      <mat-card-content>
+          - Provided customer service in a high-volume 
+          retail store, earning $1000+ in revenue daily <br>
+          - Organized retail store to deliver a quality 
+          experience to customers <br>
+      </mat-card-content>
+    </mat-card>
+  </mat-card>
+</div>
+<mat-divider></mat-divider>
+<div #contact>
+  <mat-card id="content">
+    <mat-card>
+      <mat-card-subtitle>
+        Email
+      </mat-card-subtitle>
+      <mat-card-content>
+        <a href="mailto:yojairomorales@icloud.com"> 
+          yojairomorales@icloud.com 
+        </a>
+      </mat-card-content>
+    </mat-card>
+    <mat-card>
+      <mat-card-subtitle>
+        LinkedIn
+      </mat-card-subtitle>
+      <mat-card-content>
+        <a href="https://www.linkedin.com/in/yojairo/"> 
+          https://www.linkedin.com/in/yojairo/
+        </a>        
+      </mat-card-content>
+    </mat-card>
+    <mat-card>
+      <mat-card-subtitle>
+        GitHub
+      </mat-card-subtitle>
+      <mat-card-content>
+        <a href="https://github.com/Yojairo"> 
+          https://github.com/Yojairo
+        </a>        
+      </mat-card-content>
+    </mat-card>
+  </mat-card>
+</div>
+<br>
+
+
+<router-outlet></router-outlet>

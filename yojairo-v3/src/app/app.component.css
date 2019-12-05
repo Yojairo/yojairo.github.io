@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400i,500,500i,600,600i,700,700i|Open+Sans:300,300i,400,400i&display=swap');
+
+a {
+    color: inherit; 
+    text-decoration: none;
+} 
+
+#name {
+    justify-content: center;
+    text-align: center;
+    background-color: #FFCC00;
+    color: #990000;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#menu {
+    display: flex;
+    background-color: #990000;
+    color: #ffffff;
+}
+
+#menuButton {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#filler {
+    flex:  1 1 auto;
+}
+
+#home {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+#content {
+    text-align: center;
+}
+
+#works {
+    background-color: #ffffff;
+}
+
+#resume {
+    background-color: #990000;
+}
+
+#contact {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+#image{
+    width: 5px;
+    height: 5px;
+}
