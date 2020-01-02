@@ -1,0 +1,27 @@
+.text-secondary {
+  color: #FFCC00!important;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+  transition: all .5s ease;
+  opacity: 0;
+  background-color: #990000;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #128f76;
+  border-color: #11836d;
+}
+
+.close:not(:disabled):not(.disabled):focus, .close:not(:disabled):not(.disabled):hover {
+  color: #6b120a;
+  opacity: 1;
+}
+
+.close {
+  color: #990000;
+  font-size: 3rem;
+  opacity: 1;
+}
+
