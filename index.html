@@ -6,225 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Yojairo Morales</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/name.css">
-    <link rel="stylesheet" href="assets/css/navbar.css">
-    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
 </head>
 
-<body id="page-top">
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
-        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Yojairo Morales</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand logo" href="#">Yojairo Morales</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navbarNav">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="projects-grid-cards.html">Projects</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="cv.html">CV</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header class="masthead bg-primary text-white text-center">
-        <div class="container"><img class="img-fluid d-block mx-auto mb-5" src="assets/img/profile.png">
-            <h1>Yojairo Morales</h1>
-            <hr style="background-color: white;height: 1;">
-            <h2 class="font-weight-light mb-0">University of Southern California</h2>
-        </div>
-    </header>
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <h2 class="text-uppercase text-center text-secondary">Portfolio</h2>
-            <hr style="height: 1px;background-color: #FFCC00;">
-            <div class="row">
-                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-1"></a></div>
-                <div class="col-md-6 col-lg-4">
-                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-2">
-                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
-                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i class="fa fa-search-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/Hestia.png"></a>
-                </div>
-                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-3"></a></div>
-                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-4"></a></div>
-                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-5"></a></div>
-                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-6"></a></div>
-            </div>
-        </div>
-    </section>
-    <section id="about" class="bg-primary text-white mb-0">
-        <div class="container">
-            <h2 class="text-uppercase text-center text-white">About</h2>
-            <hr style="background-color: white;height: 1px;">
-            <div class="row">
-                <div class="col-lg-4 ml-auto">
-                    <p class="lead">Hello! I am Yojairo Morales, a student at the University of Southern California, from Stockton, California. Currently, I am a sophomore studying Computer Science and Business Administration.</p>
-                </div>
-                <div class="col-lg-4 mr-auto">
-                    <p class="lead">Aside from my academic interests, I am an avid streetwear enthusiast, sneaker collector, and social activist.&nbsp;</p>
+    <main class="page lanidng-page">
+        <section class="portfolio-block block-intro">
+            <div class="container">
+                <div class="avatar" style="background-image:url(&quot;assets/img/avatars/avatar.jpg&quot;);"></div>
+                <div class="about-me">
+                    <p>Hello! I am <strong>Yojairo Morales</strong>. I am an undergraduate at the University of Southern California from Stockton.</p>
                 </div>
             </div>
-            <h3></h3>
-            <div class="text-center mt-4"><a class="btn btn-outline-light btn-xl" role="button" href="resources/yojairoresume.pdf"><i class="fa fa-download mr-2"></i><span>PDF Resumé</span></a></div>
-        </div>
-    </section>
-    <div></div>
-    <section id="contact" style="color: #FFCC00;">
-        <div class="container">
-            <h2 class="text-uppercase text-center text-secondary mb-0">Contact</h2>
-            <hr style="height: 1px;background-color: #FFCC00;">
-        </div>
-        <p class="text-center" style="color: rgb(0,0,0);"><strong>Email</strong>: yojairomorales@icloud.com</p>
-    </section>
-    <footer class="footer text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 mb-5 mb-lg-0"></div>
-                <div class="col-md-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase">Around the Web</h4>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="https://github.com/Yojairo"><i class="fa fa-github fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="https://www.linkedin.com/in/yojairo/"><i class="fa fa-linkedin fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="mailto:yojairomorales@icloud.com"><i class="fa fa-mail-reply fa-fw"></i></a></li>
-                        <li class="list-inline-item"></li>
-                    </ul>
-                </div>
-                <div class="col-md-4 mb-5 mb-lg-0"></div>
-                <div class="col-md-4">
-                    <p class="lead mb-0"></p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <div class="copyright py-4 text-center text-white">
-        <div class="container"><small>Copyright ©&nbsp;Yojairo Morales 2020</small></div>
-    </div>
-    <div class="d-lg-none scroll-to-top position-fixed rounded"><a class="d-block js-scroll-trigger text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
-    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-1">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-                <div class="modal-body">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
-                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/cabin.png">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
-                                    itaque. Nam.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="#"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
-            </div>
-        </div>
-    </div>
-    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-2">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-                <div class="modal-body">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <h2 class="text-uppercase text-secondary mb-0">Hestia</h2>
-                                <hr style="height: 1px;background-color: #FFCC00;"><img class="img-fluid mb-5" src="assets/img/portfolio/Hestia.png">
-                                <p class="mb-5"><em>Hestia</em>&nbsp;is an upcoming project that I am hoping to be able to share.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer pb-5"></div>
-            </div>
-        </div>
-    </div>
-    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-3">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-                <div class="modal-body">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
-                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/circus.png">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
-                                    itaque. Nam.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="#"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
-            </div>
-        </div>
-    </div>
-    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-4">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-                <div class="modal-body">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
-                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/game.png">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
-                                    itaque. Nam.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="#"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
-            </div>
-        </div>
-    </div>
-    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-5">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-                <div class="modal-body">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
-                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/safe.png">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
-                                    itaque. Nam.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="#"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
-            </div>
-        </div>
-    </div>
-    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-6">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-                <div class="modal-body">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
-                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/submarine.png">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
-                                    itaque. Nam.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="#"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
-            </div>
-        </div>
-    </div>
+        </section>
+    </main>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="assets/js/freelancer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/theme.js"></script>
 </body>
 
 </html>
