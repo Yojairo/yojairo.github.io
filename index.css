@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Work+Sans:ital,wght@0,300;1,300&display=swap');
+
+#video {
+  position: fixed;
+}
+
+.header {
+ font-family: 'Work Sans', Sans-Serif;
+ font-size: 7.5vw;
+ color: white;
+}
+
+.header_subtitle {
+ font-family: 'Open Sans', Sans-Serif;
+ font-size: 2.5vw;
+ color: white;
+}
