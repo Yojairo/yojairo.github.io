@@ -66,3 +66,11 @@ header .overlay {
  font-size: 1.25vmax;
  color: black;
 }
+
+.work_sans {
+ font-family: 'Open Sans', Sans-Serif;
+}
+
+.open_sans {
+ font-family: 'Open Sans', Sans-Serif;
+}
